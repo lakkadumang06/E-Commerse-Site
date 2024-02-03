@@ -1,0 +1,11 @@
+.Category-part {
+    height: 100vh !important;
+    position: sticky;
+    top: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.Category-part::-webkit-scrollbar{
+    width: 1px;
+    background-color: transparent;
+}

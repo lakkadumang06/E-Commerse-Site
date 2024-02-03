@@ -1,0 +1,80 @@
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart input {
+    padding: 10px 20px;
+    margin: 20px 0px 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.cart button {
+    background-color: var(--theme-color);
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-left: 0px !important;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.catogary {
+    position: sticky !important;
+    top: 0px !important;
+    border-right: 2px solid black;
+    height: 100%;
+}
+
+.heading h2 {
+    margin: 0;
+    font-size: 40px;
+    color: var(--theme-color);
+}
+
+.Section li {
+    list-style-type: none;
+    margin: 10px;
+    border-style: dashed;
+    border-width: 0 0 1px;
+    border-color: #b0bba4;
+}
+
+.catogary button {
+    text-align: left;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: transparent;
+    background: transparent;
+    width: 100%;
+}
+
+.item .item-info {
+    padding: 0px 40px;
+}
+.item-image{
+    height: 200px;
+}
+.item-image image{
+    height: 100%;
+}
+
+.item .item-info .rating{
+    margin: 5px 0px;
+    padding: 5px;
+    width: fit-content !important;
+    height: fit-content;
+    background-color: var(--theme-color);
+    color: white;
+}
+.cart-btn button{
+    padding: 10px 20px;
+    border: transparent;
+    border-radius:10px;
+    background-color: var(--theme-color);
+    color: white;
+}
+.item-info h5 span{
+    font-size: 14px;
+}

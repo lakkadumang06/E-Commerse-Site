@@ -1,0 +1,42 @@
+.Pview .pimage-info {
+    padding: 0px 40px;
+}
+.Pview h3{
+    font-size: 40px;
+}
+.Pview p{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.Pview h4{
+    font-size: 30px;
+}
+.Pview h4 span {
+    font-size: 24px;
+}
+.Pview .pimage-info .rating{
+    margin: 5px 0px;
+    padding: 5px;
+    width: fit-content !important;
+    height: fit-content;
+    background-color: var(--theme-color);
+    color: white;
+}
+.pimage-info h5 span{
+    font-size: 14px;
+}
+.main-img img{
+    height: 400px !important;
+}
+
+.fiveimg img{
+    height: 200px !important;
+}
+.pview-btn button{
+    padding: 20px 40px;
+    border: transparent;
+    background-color: var(--theme-color);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}

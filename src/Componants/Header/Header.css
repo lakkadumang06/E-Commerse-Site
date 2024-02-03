@@ -1,0 +1,31 @@
+.Header {
+    background-color: var(--theme-color);
+    color: white;
+}
+
+.Header .logo img {
+    width: 200px !important;
+}
+
+.logo p {
+    margin: 0;
+}
+.cart-icon {
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: var(--theme-color);
+    border-radius: 50%;
+}
+.cart h3{
+    color: var(--theme-color);
+    margin: 0;
+}
+.main-menu a{
+    font-size: 20px;
+    color: white;
+}

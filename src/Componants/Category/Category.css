@@ -1,0 +1,29 @@
+.list-cat {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid var(--theme-color);
+    text-transform: uppercase;
+    margin: 10px 0px;
+    border-radius: 10px;
+    color: var(--theme-color);
+    transition: .5s;
+}
+.list-cat:hover {
+    background-color: var(--theme-color);
+    color: white;
+    transition: .5s;
+}
+.list-main-cat{
+    width: 100%;
+    padding: 15px 20px;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background-color: var(--theme-color);
+}
+
+.main-sidemenu::-webkit-scrollbar{
+    opacity: 0;
+    width: 1px;
+}
